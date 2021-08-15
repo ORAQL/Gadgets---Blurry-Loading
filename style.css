@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.bg {
+    background: url(https://phantom-marca.unidadeditorial.es/63bc748bca76d2d2d15f85c20b6451d2/crop/0x57/731x468/resize/1320/f/jpg/assets/multimedia/imagenes/2021/02/18/16136041322423.jpg) no-repeat center center/cover;
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    width: calc(100vw + 60px);
+    height: calc(100vw + 60px);
+    z-index: -1;
+    filter: blur(0px);
+} 
+
+.loading-text {
+  font-size: 50px;
+  color: white;
+}
